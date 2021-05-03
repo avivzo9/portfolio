@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    font-family: quicksand;
+    padding: 1em;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 7px;
+    width: 200px;
+}
+
+button {
+    font-family: quicksand;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    background-color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+textarea {
+    width: 200px;
+    font-family: quicksand;
+    padding: 1em;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    border-radius: 7px;
+    resize: none;
+}

@@ -1,0 +1,39 @@
+.footer-container {
+    > :first-child {
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        > * {
+            padding: 10px;
+            transition: 0.3s;
+            margin: 1em;
+            cursor: pointer;
+            &:hover {
+                transform: translateY(-10%);
+            }
+        }
+    }
+    small {
+        margin-bottom: 2em;
+    }
+}
+
+@include for-mobile-layout {
+    .footer-container {
+        > :first-child {
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@include for-small-mobile-layout {
+    .footer-container {
+        > :first-child {
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+}
