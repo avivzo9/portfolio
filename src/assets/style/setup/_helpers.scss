@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+}
+
+.flex {
+    display: flex;
+}
+
+.small-header {
+    color: rgba(128, 128, 128, 0.8);
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.font-header {
+    font-family: raleway;
+    letter-spacing: 2px;
+}

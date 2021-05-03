@@ -1,0 +1,40 @@
+.spec-container {
+    margin: 1.5em 0;
+    .fa {
+        font-size: 3.5em;
+        margin: 1em 0;
+        color: $clr1;
+    }
+    h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        li {
+            line-height: 1.25em;
+            font-weight: 600;
+            h3 {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+@include for-mobile-layout {
+    .spec-container {
+        ul {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
+@include for-small-mobile-layout {
+    .spec-container {
+        ul {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}
