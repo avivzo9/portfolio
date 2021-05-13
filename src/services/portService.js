@@ -9,7 +9,7 @@ const gLinks = [
         name: 'Jukify',
         url: 'https://jukify-music-app.herokuapp.com',
         img: 'https://jukify-music-app.herokuapp.com/img/jukify-logo.34abe248.png',
-        desc: 'Create your own station and share it live worldwide!'
+        desc: 'My biggest project, Create your own station and share it live worldwide!'
     },
     {
         _id: _makeid(),

@@ -5,12 +5,15 @@
     <ul>
       <li>
         <font-awesome-icon class="fa fa-star" icon="star" />
-        <h3>Hobbies?</h3>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <h3>Programing experience</h3>
+        <p>
+          Junior Fullstack/Frontend Developer.<br />
+          One year of experience.
+        </p>
       </li>
       <li>
         <font-awesome-icon class="fa fa-code" icon="code" />
-        <h3>Programing experience</h3>
+        <h3>Tech skills</h3>
         <p>
           React, Redux, VueJS, VueX, angularJS,<br />
           mongoDB, mySQL, NodeJS, Sass.
@@ -21,7 +24,8 @@
         <h3>Education</h3>
         <p>
           Graduate of Coding-Academy - An intensive coding bootcamp, from Jan'20
-          - Apr'20. Built several projects.
+          - Apr'20.<br />
+          Built several projects.
         </p>
       </li>
     </ul>

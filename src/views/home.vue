@@ -31,14 +31,14 @@
       </div>
       <form @submit.prevent="sendEmail">
         <h4>Send E-mail:</h4>
-        <h4>E-mail</h4>
+        <!-- <h4>E-mail</h4>
         <input
           v-model="email.from"
           type="email"
           class="email-form"
           placeholder="name@example.com"
           required
-        />
+        /> -->
         <h4>Subject</h4>
         <input
           type="text"
