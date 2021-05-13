@@ -81,12 +81,13 @@
 }
 
 .contact {
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     flex-direction: column;
     width: 20em;
     max-width: 18em;
     height: 100vh;
+    padding-top: 3em;
     position: fixed;
     top: 0;
     right: 0;

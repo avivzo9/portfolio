@@ -4,7 +4,6 @@
     <div class="about-content flex">
       <img src="~@/assets/img/my-photo.jpg" alt="" />
       <div class="flex">
-        <p>Full-Stack\Frontend Developer</p>
         <h4>Summery</h4>
         <p>
           Hello!<br />

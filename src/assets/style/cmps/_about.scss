@@ -19,7 +19,7 @@
             flex-direction: column;
             > * {
                 margin: 1em;
-                line-height: 1.25em;
+                line-height: 1.35em;
             }
             p {
                 width: 60%;
@@ -33,7 +33,7 @@
         .about-content {
             > :nth-child(2) {
                 p {
-                    width: 100%;
+                    width: 90%;
                 }
             }
         }
@@ -49,7 +49,7 @@
         }
         > :nth-child(2) {
             p {
-                width: 100%;
+                width: 90%;
             }
         }
     }
@@ -64,7 +64,7 @@
         }
         > :nth-child(2) {
             p {
-                width: 100%;
+                width: 90%;
             }
         }
     }
