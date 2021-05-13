@@ -10,7 +10,6 @@
         </ul>
       </div> -->
     <!-- </section> -->
-  
     <router-view />
   </div>
 </template>
