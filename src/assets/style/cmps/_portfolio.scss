@@ -92,6 +92,9 @@
                     > :nth-child(2) {
                         max-height: 100%;
                     }
+                    &:hover {
+                        transform: translateY(0);
+                    }
                 }
             }
         }
@@ -107,6 +110,9 @@
                     > :nth-child(2) {
                         max-height: 100%;
                     }
+                    &:hover {
+                        transform: translateY(0);
+                    }
                 }
             }
         }
@@ -118,6 +124,13 @@
         ul {
             grid-template-columns: repeat(1, 1fr);
             grid-template-rows: repeat(1, 200px);
+            li {
+                a {
+                    &:hover {
+                        transform: translateY(0);
+                    }
+                }
+            }
         }
     }
 }

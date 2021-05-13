@@ -85,7 +85,7 @@ export default {
     return {
       isOpen: false,
       email: {
-        from: "",
+        from: "avivzo9@gmail.com",
         subject: "",
         msg: "",
       },
@@ -100,7 +100,7 @@ export default {
       portService.sendEmail(this.email);
     },
     textCopy(type) {
-      console.log('copied!');
+      console.log("copied!");
       this.$notify({
         title: "Success!",
         message: `${type} copied to clipboard!`,
