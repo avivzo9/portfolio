@@ -9,7 +9,14 @@ const gLinks = [
         name: 'Jukify',
         url: 'https://jukify-music-app.herokuapp.com',
         img: 'https://jukify-music-app.herokuapp.com/img/jukify-logo.34abe248.png',
-        desc: 'My biggest project, Create your own station and share it live worldwide!'
+        desc: 'Live music stations streaming application (Based on Spotify & Jukebox)'
+    },
+    {
+        _id: _makeid(),
+        name: 'Taskman',
+        url: 'http://taskman-app.herokuapp.com',
+        img: 'https://taskman-app.herokuapp.com/logo192.png',
+        desc: 'Task-making application (based on Trello)'
     },
     {
         _id: _makeid(),
