@@ -15,14 +15,6 @@
       <a href="https://www.instagram.com/avivzo9/" target="_blank"
         ><font-awesome-icon class="link" :icon="['fab', 'instagram']"
       /></a>
-      <a href="https://twitter.com/AvivZohar4" target="_blank"
-        ><font-awesome-icon class="link" :icon="['fab', 'twitter']"
-      /></a>
-      <a
-        href="https://stackexchange.com/users/21417527/aviv-zohar"
-        target="_blank"
-        ><font-awesome-icon class="link" :icon="['fab', 'stack-exchange']"
-      /></a>
     </div>
     <small>All rights reserved, Aviv Zohar 2021 &copy;</small>
   </section>

@@ -12,7 +12,7 @@
         display: grid;
         width: 100%;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(1, 250px);
+        grid-template-rows: repeat(2, 250px);
         gap: 50px;
         li {
             width: 100%;
