@@ -7,10 +7,13 @@
         <h4>Summery</h4>
         <p>
           Hello!<br />
-          I'm Aviv Zohar, Full-Stack/Frontend Web Developer specializing in
-          advanced frameworks and technologies.<br />
-          Seeking to take part in interesting and challenging projects.<br />
-          Open to work.
+          I'm Aviv Zohar, Junior Full Stack Developer, with experience in
+          writing single-page-applications using the latest WEB technologies
+          Graduate of the Coding Academy - An intensive coding boot-camp that
+          qualifies Full Stack developers.<br />
+          Passionate about technology, striving to be the best, a fast learner
+          and a team player. Seeking to take part in interesting and challenging
+          projects.<br />
         </p>
       </div>
     </div>

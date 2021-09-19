@@ -5,14 +5,14 @@ import store from './store/store'
 import './assets/style/main.scss'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faAt, faCode, faPhoneAlt, faStar, faUniversity } from '@fortawesome/free-solid-svg-icons';
+import { faAt, faChevronLeft, faChevronRight, faCode, faExternalLinkAlt, faLongArrowAltRight, faPhoneAlt, faStar, faTimesCircle, faUniversity } from '@fortawesome/free-solid-svg-icons';
 import { faFacebookF, faGithub, faInstagram, faLinkedin, faStackExchange, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import vClickOutside from 'v-click-outside'
 import Clipboard from 'v-clipboard'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 
-library.add(faStar, faStackExchange, faTwitter, faCode, faUniversity, faFacebookF, faInstagram, faLinkedin, faGithub, faPhoneAlt, faAt);
+library.add(faStar, faStackExchange, faTwitter, faCode, faLongArrowAltRight, faChevronRight ,faChevronLeft, faTimesCircle, faExternalLinkAlt, faUniversity, faFacebookF, faInstagram, faLinkedin, faGithub, faPhoneAlt, faAt);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.config.productionTip = false
 Vue.use(vClickOutside)

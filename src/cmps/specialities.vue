@@ -1,13 +1,13 @@
 <template>
   <section class="spec-container sub-container">
     <h1 id="spec" class="font-header">Specialities</h1>
-    <p class="small-header">Full-Stack\Frontend Developer</p>
+    <p class="small-header">Full Stack Developer</p>
     <ul>
       <li>
         <font-awesome-icon class="fa fa-star" icon="star" />
         <h3>Programing experience</h3>
         <p>
-          Junior Fullstack/Frontend Developer.<br />
+          Junior Full Stack Developer.<br />
           One year of experience.
         </p>
       </li>
@@ -15,8 +15,8 @@
         <font-awesome-icon class="fa fa-code" icon="code" />
         <h3>Tech skills</h3>
         <p>
-          React, Redux, VueJS, VueX, angularJS,<br />
-          mongoDB, mySQL, NodeJS, Sass.
+          React, React Native, Angular, Redux, Vue, VueX,<br />
+          MongoDB, MySQL, NodeJS, Sass.
         </p>
       </li>
       <li>

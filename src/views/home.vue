@@ -1,14 +1,6 @@
 <template>
   <section class="container">
-    <div class="Hero-container container">
-      <!-- <div class="flex">
-        <h1>Avi<span class="header-rotate">v</span></h1>
-      </div>
-      <div class="flex">
-        <h1>Zohar<span class="header-dot">.</span></h1>
-      </div> -->
-      <!-- <img src="~@/assets/img/port-hero.jpg" alt=""> -->
-    </div>
+    <div class="Hero-container container"></div>
     <div class="sub-container">
       <specialities />
       <portfolio />
@@ -31,14 +23,6 @@
       </div>
       <form @submit.prevent="sendEmail">
         <h4>Send E-mail:</h4>
-        <!-- <h4>E-mail</h4>
-        <input
-          v-model="email.from"
-          type="email"
-          class="email-form"
-          placeholder="name@example.com"
-          required
-        /> -->
         <h4>Subject</h4>
         <input
           type="text"
@@ -100,7 +84,6 @@ export default {
       portService.sendEmail(this.email);
     },
     textCopy(type) {
-      console.log("copied!");
       this.$notify({
         title: "Success!",
         message: `${type} copied to clipboard!`,
