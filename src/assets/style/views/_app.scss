@@ -39,3 +39,9 @@
 .el-notification__group {
   font-family: quicksand;
 }
+.v-btn {
+  &:hover {
+    color: white !important;
+    transition: 0.2s;
+  }
+}

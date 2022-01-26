@@ -15,7 +15,7 @@ const gLinks = [
         desc: 'Live music streaming application, create art music together, and throw a party in different places at the same time!',
         basedOn: 'Jukebox & Spotify',
         gif: jukVid,
-        tech: 'Vue + VueX + Sass + MongoDB + Node.JS',
+        tech: 'Vue, VueX, Sass, MongoDB, Node.JS',
     },
     {
         _id: _makeId(),
@@ -25,7 +25,7 @@ const gLinks = [
         desc: 'An advanced Project management tool, Collaborate, manage projects, and reach new productivity peaks.',
         basedOn: 'Trello',
         gif: taskVid,
-        tech: 'React + Redux + Sass + MySQL + Node.JS',
+        tech: 'React, Redux, Sass, MySQL, Node.JS',
     },
     // {
     //     _id: _makeId(),

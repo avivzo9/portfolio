@@ -11,6 +11,7 @@ import vClickOutside from 'v-click-outside'
 import Clipboard from 'v-clipboard'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import vuetify from './plugins/vuetify'
 
 library.add(faStar, faStackExchange, faTwitter, faCode, faLongArrowAltRight, faChevronRight ,faChevronLeft, faTimesCircle, faExternalLinkAlt, faUniversity, faFacebookF, faInstagram, faLinkedin, faGithub, faPhoneAlt, faAt);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
@@ -22,5 +23,6 @@ Vue.use(ElementUI);
 new Vue({
   router,
   store,
+  vuetify,
   render: h => h(app)
 }).$mount('#app')
