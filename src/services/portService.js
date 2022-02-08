@@ -1,5 +1,9 @@
-import taskVid from '../assets/video/taskman-gif.gif'
-import jukVid from '../assets/video/jukify-gif.gif'
+import jukifyLogo from '../assets/img/jukify-logo.png'
+import taskmanLogo from '../assets/img/taskman-logo.png'
+import flavurLogo from '../assets/img/flavur-logo.png'
+
+import jukifyVid from '../assets/video/jukify-gif.gif'
+import taskmanVid from '../assets/video/taskman-gif.gif'
 
 export const portService = {
     sendEmail,
@@ -11,21 +15,31 @@ const gLinks = [
         _id: _makeId(),
         name: 'Jukify',
         url: 'https://jukify-music-app.herokuapp.com',
-        img: 'https://jukify-music-app.herokuapp.com/img/jukify-logo.34abe248.png',
-        desc: 'Live music streaming application, create art music together, and throw a party in different places at the same time!',
+        img: jukifyLogo,
+        desc: 'Live music streaming application, create art music together and throw a party in different places at the same time!',
         basedOn: 'Jukebox & Spotify',
-        gif: jukVid,
+        gif: jukifyVid,
         tech: 'Vue, VueX, Sass, MongoDB, Node.JS',
     },
     {
         _id: _makeId(),
         name: 'Taskman',
         url: 'http://taskman-app.herokuapp.com',
-        img: 'https://taskman-app.herokuapp.com/logo192.png',
-        desc: 'An advanced Project management tool, Collaborate, manage projects, and reach new productivity peaks.',
+        img: taskmanLogo,
+        desc: 'An advanced Project management tool, collaborate, manage projects and reach new productivity peaks.',
         basedOn: 'Trello',
-        gif: taskVid,
+        gif: taskmanVid,
         tech: 'React, Redux, Sass, MySQL, Node.JS',
+    },
+    {
+        _id: _makeId(),
+        name: 'Flavur',
+        url: 'https://github.com/avivzo9/flavur',
+        img: flavurLogo,
+        desc: 'Flavur helps people find local restaurants around their location and provides detailed information about them.',
+        basedOn: 'Easy & Google maps',
+        // gif: taskmanVid,
+        tech: 'React Native, firebase',
     },
     // {
     //     _id: _makeId(),

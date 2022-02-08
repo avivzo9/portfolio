@@ -18,12 +18,21 @@ p {
     margin: 0;
 }
 
-input {
+input,
+textarea {
     font-family: quicksand;
     padding: 1em;
     border: 1px solid rgba(128, 128, 128, 0.5);
     border-radius: 7px;
     width: 200px;
+    color: black;
+    resize: none;
+    &::placeholder {
+        color: #2c3e50;
+    }
+    &:focus {
+        outline: 1px solid black;
+    }
 }
 
 button {
@@ -39,13 +48,4 @@ button {
         background-color: black;
         color: white;
     }
-}
-
-textarea {
-    width: 200px;
-    font-family: quicksand;
-    padding: 1em;
-    border: 1px solid rgba(128, 128, 128, 0.5);
-    border-radius: 7px;
-    resize: none;
 }
