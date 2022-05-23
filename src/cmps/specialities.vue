@@ -7,8 +7,8 @@
         <font-awesome-icon class="fa fa-star" icon="star" />
         <h3>Programing experience</h3>
         <p>
-          Junior Full Stack Developer.<br />
-          One year of experience.
+          Full Stack Developer,<br />
+          Built several projects.
         </p>
       </li>
       <li>
@@ -25,7 +25,6 @@
         <p>
           Graduate of Coding-Academy - An intensive coding bootcamp, from Jan'20
           - Apr'20.<br />
-          Built several projects.
         </p>
       </li>
     </ul>
